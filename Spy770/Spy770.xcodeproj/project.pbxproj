@@ -44,6 +44,8 @@
 		73A43EDB2BCDB9B700CA35E0 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43EDA2BCDB9B700CA35E0 /* SuccessView.swift */; };
 		73A43EDD2BCDB9C200CA35E0 /* FailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43EDC2BCDB9C200CA35E0 /* FailView.swift */; };
 		73A43EE12BCDBA5C00CA35E0 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43EE02BCDBA5C00CA35E0 /* ButtonView.swift */; };
+		7C0695EC2BCF0234007C5535 /* ConstantsWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0695EB2BCF0234007C5535 /* ConstantsWatch.swift */; };
+		7C0695EE2BCF0264007C5535 /* lockerClick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C0695ED2BCF0264007C5535 /* lockerClick.wav */; };
 		A7A54BE42BCEE9A4003EE1A0 /* WCProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A54BE32BCEE9A4003EE1A0 /* WCProtocol.swift */; };
 		A7A54BE52BCEE9A4003EE1A0 /* WCProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A54BE32BCEE9A4003EE1A0 /* WCProtocol.swift */; };
 		A7A54BE72BCEE9EC003EE1A0 /* SharedConnectivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A54BE62BCEE9EC003EE1A0 /* SharedConnectivityViewModel.swift */; };
@@ -117,6 +119,8 @@
 		73A43EDA2BCDB9B700CA35E0 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
 		73A43EDC2BCDB9C200CA35E0 /* FailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailView.swift; sourceTree = "<group>"; };
 		73A43EE02BCDBA5C00CA35E0 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		7C0695EB2BCF0234007C5535 /* ConstantsWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsWatch.swift; sourceTree = "<group>"; };
+		7C0695ED2BCF0264007C5535 /* lockerClick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lockerClick.wav; sourceTree = "<group>"; };
 		A7A54BE32BCEE9A4003EE1A0 /* WCProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCProtocol.swift; sourceTree = "<group>"; };
 		A7A54BE62BCEE9EC003EE1A0 /* SharedConnectivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedConnectivityViewModel.swift; sourceTree = "<group>"; };
 		A7A54BE92BCEEBA0003EE1A0 /* SharedConnectivityViewModel+WCProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharedConnectivityViewModel+WCProtocol.swift"; sourceTree = "<group>"; };
@@ -399,6 +403,8 @@
 			children = (
 				73A43EDF2BCDBA4A00CA35E0 /* Components */,
 				73A43E8C2BCD9CEE00CA35E0 /* Assets.xcassets */,
+				7C0695ED2BCF0264007C5535 /* lockerClick.wav */,
+				7C0695EB2BCF0234007C5535 /* ConstantsWatch.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -517,6 +523,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C0695EE2BCF0264007C5535 /* lockerClick.wav in Resources */,
 				73A43E902BCD9CEE00CA35E0 /* Preview Assets.xcassets in Resources */,
 				73A43E8D2BCD9CEE00CA35E0 /* Assets.xcassets in Resources */,
 			);
@@ -560,6 +567,7 @@
 				A7A54BEF2BCEED04003EE1A0 /* SharedConnectivityViewModel+WCDelegate+Watch.swift in Sources */,
 				73A43ECE2BCDB83C00CA35E0 /* IntroVideoView.swift in Sources */,
 				73A43EDB2BCDB9B700CA35E0 /* SuccessView.swift in Sources */,
+				7C0695EC2BCF0234007C5535 /* ConstantsWatch.swift in Sources */,
 				73A43ED22BCDB88D00CA35E0 /* ARView.swift in Sources */,
 				73A43ED52BCDB93000CA35E0 /* HackView.swift in Sources */,
 				A7A54BEB2BCEEBA0003EE1A0 /* SharedConnectivityViewModel+WCProtocol.swift in Sources */,
@@ -708,7 +716,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Spy770 Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = DFJUFQ6A3N;
+				DEVELOPMENT_TEAM = 856F4M2786;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Spy770;
@@ -738,7 +746,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Spy770 Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = DFJUFQ6A3N;
+				DEVELOPMENT_TEAM = 856F4M2786;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Spy770;
@@ -770,7 +778,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Spy770/Preview Content\"";
-				DEVELOPMENT_TEAM = DFJUFQ6A3N;
+				DEVELOPMENT_TEAM = 856F4M2786;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Spy770;
@@ -804,7 +812,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Spy770/Preview Content\"";
-				DEVELOPMENT_TEAM = DFJUFQ6A3N;
+				DEVELOPMENT_TEAM = 856F4M2786;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Spy770;
