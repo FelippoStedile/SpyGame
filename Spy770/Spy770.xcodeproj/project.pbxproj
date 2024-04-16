@@ -38,6 +38,8 @@
 		73A43EDB2BCDB9B700CA35E0 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43EDA2BCDB9B700CA35E0 /* SuccessView.swift */; };
 		73A43EDD2BCDB9C200CA35E0 /* FailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43EDC2BCDB9C200CA35E0 /* FailView.swift */; };
 		73A43EE12BCDBA5C00CA35E0 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43EE02BCDBA5C00CA35E0 /* ButtonView.swift */; };
+		7C0012172BCEE4BB00290775 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0012162BCEE4BB00290775 /* Constants.swift */; };
+		7C0012192BCEE4DB00290775 /* lockerClick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C0012182BCEE4DB00290775 /* lockerClick.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +99,8 @@
 		73A43EDA2BCDB9B700CA35E0 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
 		73A43EDC2BCDB9C200CA35E0 /* FailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailView.swift; sourceTree = "<group>"; };
 		73A43EE02BCDBA5C00CA35E0 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		7C0012162BCEE4BB00290775 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7C0012182BCEE4DB00290775 /* lockerClick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lockerClick.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -359,6 +363,8 @@
 			children = (
 				73A43EDF2BCDBA4A00CA35E0 /* Components */,
 				73A43E8C2BCD9CEE00CA35E0 /* Assets.xcassets */,
+				7C0012182BCEE4DB00290775 /* lockerClick.wav */,
+				7C0012162BCEE4BB00290775 /* Constants.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -461,6 +467,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C0012192BCEE4DB00290775 /* lockerClick.wav in Resources */,
 				73A43E902BCD9CEE00CA35E0 /* Preview Assets.xcassets in Resources */,
 				73A43E8D2BCD9CEE00CA35E0 /* Assets.xcassets in Resources */,
 			);
@@ -506,6 +513,7 @@
 				73A43EDD2BCDB9C200CA35E0 /* FailView.swift in Sources */,
 				73A43EA52BCDB26F00CA35E0 /* WatchConnectivityViewModel.swift in Sources */,
 				73A43EE12BCDBA5C00CA35E0 /* ButtonView.swift in Sources */,
+				7C0012172BCEE4BB00290775 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
