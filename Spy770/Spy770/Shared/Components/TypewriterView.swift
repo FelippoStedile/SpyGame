@@ -14,28 +14,37 @@ extension String {
 }
 
 struct TypewriterView: View {
-    var nextLine: Bool = false
+    @State var nextLine: Bool = false
     
-    let finalText: String = "IsSo FeFe MaThiNa Mas vamos mais longe com essa frase toda aqui imensa tentando pegar mais coisas na tela"
+    let finalText: String = "IsSo FeFe MaThiNa Mas vamos mais longe com essa frase toda aqui imensa tentando pegar mais coisas na tela aaaaa  aa a  a ldajldkajs aklnd"
     @State var text: String = ""
     
     var body: some View {
-        Text(text)
-            .onAppear(perform: {
-                typeWriter()
-            })
+        HStack {
+            Text(text)
+                .multilineTextAlignment(.leading)
+                .onAppear(perform: {
+                    typeWriter()
+                })
+            Spacer()
+        }.padding(.leading, 16)
     }
     
     
     func typeWriter(at position: Int = 0) {
-        if position % 60 == 40 {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 2){
-                text = ""
-            }
+        if position % 40 == 39 {
+            nextLine = true
         }
         if position < finalText.count {
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.07) {
-                text.append(finalText[position])
+                let character = finalText[position]
+                
+                if character == " " && nextLine {
+                    text = ""
+                } else {
+                    nextLine = false
+                    text.append(finalText[position])
+                }
                 typeWriter(at: position + 1)
             }
         }
