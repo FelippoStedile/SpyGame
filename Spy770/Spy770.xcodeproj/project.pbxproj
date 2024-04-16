@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		007F04472BCEEA12006A01C5 /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007F04462BCEEA12006A01C5 /* ARView.swift */; };
+		007F04492BCEEA81006A01C5 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007F04482BCEEA81006A01C5 /* ARViewController.swift */; };
+		007F044B2BCEEF35006A01C5 /* Pineapple.scn in Resources */ = {isa = PBXBuildFile; fileRef = 007F044A2BCEEF35006A01C5 /* Pineapple.scn */; };
+		007F044F2BCEEF4F006A01C5 /* 10200_Pineapple_v1-L2.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 007F044C2BCEEF4E006A01C5 /* 10200_Pineapple_v1-L2.mtl */; };
+		007F04502BCEEF4F006A01C5 /* 10200_Pineapple_v1-L2.obj in Resources */ = {isa = PBXBuildFile; fileRef = 007F044D2BCEEF4E006A01C5 /* 10200_Pineapple_v1-L2.obj */; };
+		007F04512BCEEF4F006A01C5 /* 10200_Pineapple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 007F044E2BCEEF4F006A01C5 /* 10200_Pineapple.jpg */; };
 		73A43E772BCD9CEB00CA35E0 /* Spy770App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43E762BCD9CEB00CA35E0 /* Spy770App.swift */; };
 		73A43E7B2BCD9CED00CA35E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73A43E7A2BCD9CED00CA35E0 /* Assets.xcassets */; };
 		73A43E7E2BCD9CED00CA35E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73A43E7D2BCD9CED00CA35E0 /* Preview Assets.xcassets */; };
@@ -73,6 +79,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		007F04462BCEEA12006A01C5 /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
+		007F04482BCEEA81006A01C5 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		007F044A2BCEEF35006A01C5 /* Pineapple.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Pineapple.scn; sourceTree = "<group>"; };
+		007F044C2BCEEF4E006A01C5 /* 10200_Pineapple_v1-L2.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "10200_Pineapple_v1-L2.mtl"; sourceTree = "<group>"; };
+		007F044D2BCEEF4E006A01C5 /* 10200_Pineapple_v1-L2.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "10200_Pineapple_v1-L2.obj"; sourceTree = "<group>"; };
+		007F044E2BCEEF4F006A01C5 /* 10200_Pineapple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10200_Pineapple.jpg; sourceTree = "<group>"; };
 		73A43E732BCD9CEB00CA35E0 /* Spy770.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spy770.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73A43E762BCD9CEB00CA35E0 /* Spy770App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spy770App.swift; sourceTree = "<group>"; };
 		73A43E7A2BCD9CED00CA35E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -130,6 +142,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		007F04452BCEE9EE006A01C5 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				007F04462BCEEA12006A01C5 /* ARView.swift */,
+				007F04482BCEEA81006A01C5 /* ARViewController.swift */,
+				007F044A2BCEEF35006A01C5 /* Pineapple.scn */,
+				007F044C2BCEEF4E006A01C5 /* 10200_Pineapple_v1-L2.mtl */,
+				007F044D2BCEEF4E006A01C5 /* 10200_Pineapple_v1-L2.obj */,
+				007F044E2BCEEF4F006A01C5 /* 10200_Pineapple.jpg */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
 		73A43E6A2BCD9CEB00CA35E0 = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +226,7 @@
 		73A43E9C2BCDB11500CA35E0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				007F04452BCEE9EE006A01C5 /* AR */,
 				73A43EAD2BCDB41500CA35E0 /* Onboarding */,
 				73A43EAE2BCDB41D00CA35E0 /* Introduction */,
 				73A43EAF2BCDB42900CA35E0 /* AugmentedReality */,
@@ -478,7 +504,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				007F04512BCEEF4F006A01C5 /* 10200_Pineapple.jpg in Resources */,
+				007F044B2BCEEF35006A01C5 /* Pineapple.scn in Resources */,
+				007F044F2BCEEF4F006A01C5 /* 10200_Pineapple_v1-L2.mtl in Resources */,
 				73A43E7E2BCD9CED00CA35E0 /* Preview Assets.xcassets in Resources */,
+				007F04502BCEEF4F006A01C5 /* 10200_Pineapple_v1-L2.obj in Resources */,
 				73A43E7B2BCD9CED00CA35E0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,6 +534,7 @@
 				73A43EB52BCDB4D500CA35E0 /* OnboardingView.swift in Sources */,
 				73A43EC62BCDB69200CA35E0 /* HomeView.swift in Sources */,
 				73A43EAA2BCDB30200CA35E0 /* Colors.swift in Sources */,
+				007F04472BCEEA12006A01C5 /* ARView.swift in Sources */,
 				73A43EC02BCDB66100CA35E0 /* FailView.swift in Sources */,
 				73A43EA12BCDB20900CA35E0 /* ConnectivityViewModel.swift in Sources */,
 				A7A54BE42BCEE9A4003EE1A0 /* WCProtocol.swift in Sources */,
@@ -515,6 +546,7 @@
 				73A43EC22BCDB67A00CA35E0 /* CreditsView.swift in Sources */,
 				A7A54BED2BCEEC44003EE1A0 /* SharedConnectivityViewModel+WCDelegate+Phone.swift in Sources */,
 				73A43EBE2BCDB65800CA35E0 /* SuccessView.swift in Sources */,
+				007F04492BCEEA81006A01C5 /* ARViewController.swift in Sources */,
 				73A43E9F2BCDB1E200CA35E0 /* ConnectivityModel.swift in Sources */,
 				73A43EBA2BCDB63A00CA35E0 /* HackView.swift in Sources */,
 				73A43E772BCD9CEB00CA35E0 /* Spy770App.swift in Sources */,
@@ -742,6 +774,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Spy770;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires permission to use the camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -775,6 +808,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Spy770;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires permission to use the camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
