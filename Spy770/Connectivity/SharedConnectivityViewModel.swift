@@ -8,14 +8,18 @@
 import Foundation
 import WatchConnectivity
 
-class ConnectivityViewModel: NSObject, ObservableObject {
+class SharedConnectivityViewModel: NSObject, ObservableObject {
     @Published var password: [Int] = []
 }
 
 
 //MARK: - functions
-extension ConnectivityViewModel {
+extension SharedConnectivityViewModel {
     func generatePassword() -> [Int] {
         return [Int(arc4random_uniform(100)), Int(arc4random_uniform(100)), Int(arc4random_uniform(100))]
     }
+    func updatePassword() {
+        sendMessage(key: "password", value: password)
+    }
+
 }

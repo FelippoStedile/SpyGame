@@ -6,3 +6,21 @@
 //
 
 import Foundation
+import WatchConnectivity
+
+extension SharedConnectivityViewModel: WCSessionDelegate {
+    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: (any Error)?) {
+        
+    }
+    
+    func sessionDidBecomeInactive(_ session: WCSession) { }
+    
+    func sessionDidDeactivate(_ session: WCSession) { }
+    
+    func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
+        self.onReceiveMessage(message, key: "password", ofType: [Int].self) { password in
+            self.password = password
+        }
+    }
+}
+

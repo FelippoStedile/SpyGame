@@ -6,3 +6,11 @@
 //
 
 import Foundation
+import WatchConnectivity
+
+protocol WCProtocol {
+    var session: WCSession? { get }
+    func startSession()
+    func onReceiveMessage<T:Decodable>(_ message: [String : Any], key: String, ofType: T.Type, completion: @escaping (T) -> Void)
+    func sendMessage<T: Encodable>(key: String, value: T)
+}
