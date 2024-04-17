@@ -51,6 +51,9 @@
 		73A43EE12BCDBA5C00CA35E0 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43EE02BCDBA5C00CA35E0 /* ButtonView.swift */; };
 		7C0695EC2BCF0234007C5535 /* ConstantsWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0695EB2BCF0234007C5535 /* ConstantsWatch.swift */; };
 		7C0695EE2BCF0264007C5535 /* lockerClick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C0695ED2BCF0264007C5535 /* lockerClick.wav */; };
+		7C0695F62BD04076007C5535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0695F52BD04076007C5535 /* AppDelegate.swift */; };
+		7C0695F82BD049F7007C5535 /* BombViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0695F72BD049F7007C5535 /* BombViewModel.swift */; };
+		7C0695FA2BD04D0D007C5535 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0695F92BD04D0D007C5535 /* Constants.swift */; };
 		A7A54BE42BCEE9A4003EE1A0 /* WCProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A54BE32BCEE9A4003EE1A0 /* WCProtocol.swift */; };
 		A7A54BE52BCEE9A4003EE1A0 /* WCProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A54BE32BCEE9A4003EE1A0 /* WCProtocol.swift */; };
 		A7A54BE72BCEE9EC003EE1A0 /* SharedConnectivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A54BE62BCEE9EC003EE1A0 /* SharedConnectivityViewModel.swift */; };
@@ -131,6 +134,9 @@
 		73A43EE02BCDBA5C00CA35E0 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		7C0695EB2BCF0234007C5535 /* ConstantsWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsWatch.swift; sourceTree = "<group>"; };
 		7C0695ED2BCF0264007C5535 /* lockerClick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lockerClick.wav; sourceTree = "<group>"; };
+		7C0695F52BD04076007C5535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C0695F72BD049F7007C5535 /* BombViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BombViewModel.swift; sourceTree = "<group>"; };
+		7C0695F92BD04D0D007C5535 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A7A54BE32BCEE9A4003EE1A0 /* WCProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCProtocol.swift; sourceTree = "<group>"; };
 		A7A54BE62BCEE9EC003EE1A0 /* SharedConnectivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedConnectivityViewModel.swift; sourceTree = "<group>"; };
 		A7A54BE92BCEEBA0003EE1A0 /* SharedConnectivityViewModel+WCProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharedConnectivityViewModel+WCProtocol.swift"; sourceTree = "<group>"; };
@@ -249,6 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				73A43E9E2BCDB1E200CA35E0 /* ConnectivityModel.swift */,
+				7C0695F52BD04076007C5535 /* AppDelegate.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -272,6 +279,7 @@
 			isa = PBXGroup;
 			children = (
 				73A43EA02BCDB20900CA35E0 /* ConnectivityViewModel.swift */,
+				7C0695F72BD049F7007C5535 /* BombViewModel.swift */,
 				737EFC2C2BD043FE002FB09A /* GeniusViewModel.swift */,
 			);
 			path = ViewModel;
@@ -306,6 +314,7 @@
 				73A43EA82BCDB2CE00CA35E0 /* Components */,
 				73A43EA72BCDB2C400CA35E0 /* DesignSystem */,
 				73A43E7A2BCD9CED00CA35E0 /* Assets.xcassets */,
+				7C0695F92BD04D0D007C5535 /* Constants.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -567,8 +576,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C0695FA2BD04D0D007C5535 /* Constants.swift in Sources */,
 				73A43EAC2BCDB33100CA35E0 /* ButtonView.swift in Sources */,
 				73A43EB12BCDB47400CA35E0 /* AugmentedRealityView.swift in Sources */,
+				7C0695F82BD049F7007C5535 /* BombViewModel.swift in Sources */,
 				73A43EB52BCDB4D500CA35E0 /* OnboardingView.swift in Sources */,
 				73A43EC62BCDB69200CA35E0 /* HomeView.swift in Sources */,
 				73A43EAA2BCDB30200CA35E0 /* Colors.swift in Sources */,
@@ -590,6 +601,7 @@
 				73A43E9F2BCDB1E200CA35E0 /* ConnectivityModel.swift in Sources */,
 				73A43EBA2BCDB63A00CA35E0 /* HackView.swift in Sources */,
 				73A43E772BCD9CEB00CA35E0 /* Spy770App.swift in Sources */,
+				7C0695F62BD04076007C5535 /* AppDelegate.swift in Sources */,
 				737EFC2D2BD043FE002FB09A /* GeniusViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
