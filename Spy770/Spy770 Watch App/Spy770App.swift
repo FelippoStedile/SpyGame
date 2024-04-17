@@ -11,7 +11,7 @@ import SwiftUI
 struct Spy770_Watch_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            GeniusWatchView()
         }
     }
 }
