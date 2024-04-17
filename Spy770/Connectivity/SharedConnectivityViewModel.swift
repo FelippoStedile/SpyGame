@@ -35,6 +35,8 @@ extension SharedConnectivityViewModel {
     }
     func updateView(view: ViewName) {
         sendMessage(key: "viewName", value: view)
+        self.currentView = view
+        print(view.rawValue)
     }
 
 }

@@ -52,6 +52,7 @@
 		A7A54BEB2BCEEBA0003EE1A0 /* SharedConnectivityViewModel+WCProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A54BE92BCEEBA0003EE1A0 /* SharedConnectivityViewModel+WCProtocol.swift */; };
 		A7A54BED2BCEEC44003EE1A0 /* SharedConnectivityViewModel+WCDelegate+Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A54BEC2BCEEC44003EE1A0 /* SharedConnectivityViewModel+WCDelegate+Phone.swift */; };
 		A7A54BEF2BCEED04003EE1A0 /* SharedConnectivityViewModel+WCDelegate+Watch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A54BEE2BCEED04003EE1A0 /* SharedConnectivityViewModel+WCDelegate+Watch.swift */; };
+		A7B4DFE42BD05145003B9B39 /* ViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B4DFE32BD05145003B9B39 /* ViewManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +123,7 @@
 		A7A54BE92BCEEBA0003EE1A0 /* SharedConnectivityViewModel+WCProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharedConnectivityViewModel+WCProtocol.swift"; sourceTree = "<group>"; };
 		A7A54BEC2BCEEC44003EE1A0 /* SharedConnectivityViewModel+WCDelegate+Phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharedConnectivityViewModel+WCDelegate+Phone.swift"; sourceTree = "<group>"; };
 		A7A54BEE2BCEED04003EE1A0 /* SharedConnectivityViewModel+WCDelegate+Watch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharedConnectivityViewModel+WCDelegate+Watch.swift"; sourceTree = "<group>"; };
+		A7B4DFE32BD05145003B9B39 /* ViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +250,7 @@
 		73A43EA22BCDB21A00CA35E0 /* WatchView */ = {
 			isa = PBXGroup;
 			children = (
+				A7B4DFE32BD05145003B9B39 /* ViewManager.swift */,
 				73A43EC72BCDB70C00CA35E0 /* Onboarding */,
 				73A43ECC2BCDB7F700CA35E0 /* Introduction */,
 				73A43ED02BCDB84E00CA35E0 /* AugmentedReality */,
@@ -559,6 +562,7 @@
 			files = (
 				A7A54BEF2BCEED04003EE1A0 /* SharedConnectivityViewModel+WCDelegate+Watch.swift in Sources */,
 				73A43ECE2BCDB83C00CA35E0 /* IntroVideoView.swift in Sources */,
+				A7B4DFE42BD05145003B9B39 /* ViewManager.swift in Sources */,
 				73A43EDB2BCDB9B700CA35E0 /* SuccessView.swift in Sources */,
 				73A43ED22BCDB88D00CA35E0 /* ARView.swift in Sources */,
 				73A43ED52BCDB93000CA35E0 /* HackView.swift in Sources */,
