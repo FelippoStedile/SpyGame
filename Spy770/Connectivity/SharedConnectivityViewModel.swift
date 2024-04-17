@@ -8,8 +8,24 @@
 import Foundation
 import WatchConnectivity
 
+enum ViewName: String, Codable {
+    case home
+    case credits
+    case settings
+    case intro
+    case augmentedReality
+    case hack
+    case bomb
+    case sucess
+    case fail
+}
 class SharedConnectivityViewModel: NSObject, ObservableObject {
     @Published var password: [Int] = []
+    @Published var currentView: ViewName = .home
+    override init() {
+        super.init()
+        startSession()
+    }
 }
 
 
@@ -20,6 +36,11 @@ extension SharedConnectivityViewModel {
     }
     func updatePassword() {
         sendMessage(key: "password", value: password)
+    }
+    func updateView(view: ViewName) {
+        sendMessage(key: "viewName", value: view)
+        self.currentView = view
+        print(view.rawValue)
     }
 
 }

@@ -62,6 +62,8 @@
 		A7A54BEB2BCEEBA0003EE1A0 /* SharedConnectivityViewModel+WCProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A54BE92BCEEBA0003EE1A0 /* SharedConnectivityViewModel+WCProtocol.swift */; };
 		A7A54BED2BCEEC44003EE1A0 /* SharedConnectivityViewModel+WCDelegate+Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A54BEC2BCEEC44003EE1A0 /* SharedConnectivityViewModel+WCDelegate+Phone.swift */; };
 		A7A54BEF2BCEED04003EE1A0 /* SharedConnectivityViewModel+WCDelegate+Watch.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A54BEE2BCEED04003EE1A0 /* SharedConnectivityViewModel+WCDelegate+Watch.swift */; };
+		A7B4DFE42BD05145003B9B39 /* ViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B4DFE32BD05145003B9B39 /* ViewManager.swift */; };
+		A7B4DFE62BD0602A003B9B39 /* ViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B4DFE52BD0602A003B9B39 /* ViewManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -142,6 +144,8 @@
 		A7A54BE92BCEEBA0003EE1A0 /* SharedConnectivityViewModel+WCProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharedConnectivityViewModel+WCProtocol.swift"; sourceTree = "<group>"; };
 		A7A54BEC2BCEEC44003EE1A0 /* SharedConnectivityViewModel+WCDelegate+Phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharedConnectivityViewModel+WCDelegate+Phone.swift"; sourceTree = "<group>"; };
 		A7A54BEE2BCEED04003EE1A0 /* SharedConnectivityViewModel+WCDelegate+Watch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharedConnectivityViewModel+WCDelegate+Watch.swift"; sourceTree = "<group>"; };
+		A7B4DFE32BD05145003B9B39 /* ViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewManager.swift; sourceTree = "<group>"; };
+		A7B4DFE52BD0602A003B9B39 /* ViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,6 +267,7 @@
 		73A43E9C2BCDB11500CA35E0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A7B4DFE52BD0602A003B9B39 /* ViewManager.swift */,
 				737EFC282BD03ECC002FB09A /* Genius */,
 				007F04452BCEE9EE006A01C5 /* AR */,
 				73A43EAD2BCDB41500CA35E0 /* Onboarding */,
@@ -288,6 +293,7 @@
 		73A43EA22BCDB21A00CA35E0 /* WatchView */ = {
 			isa = PBXGroup;
 			children = (
+				A7B4DFE32BD05145003B9B39 /* ViewManager.swift */,
 				737EFC2E2BD04850002FB09A /* Genius */,
 				73A43EC72BCDB70C00CA35E0 /* Onboarding */,
 				73A43ECC2BCDB7F700CA35E0 /* Introduction */,
@@ -598,6 +604,7 @@
 				A7A54BED2BCEEC44003EE1A0 /* SharedConnectivityViewModel+WCDelegate+Phone.swift in Sources */,
 				73A43EBE2BCDB65800CA35E0 /* SuccessView.swift in Sources */,
 				007F04492BCEEA81006A01C5 /* ARViewController.swift in Sources */,
+				A7B4DFE62BD0602A003B9B39 /* ViewManager.swift in Sources */,
 				73A43E9F2BCDB1E200CA35E0 /* ConnectivityModel.swift in Sources */,
 				73A43EBA2BCDB63A00CA35E0 /* HackView.swift in Sources */,
 				73A43E772BCD9CEB00CA35E0 /* Spy770App.swift in Sources */,
@@ -612,6 +619,7 @@
 			files = (
 				A7A54BEF2BCEED04003EE1A0 /* SharedConnectivityViewModel+WCDelegate+Watch.swift in Sources */,
 				73A43ECE2BCDB83C00CA35E0 /* IntroVideoView.swift in Sources */,
+				A7B4DFE42BD05145003B9B39 /* ViewManager.swift in Sources */,
 				73A43EDB2BCDB9B700CA35E0 /* SuccessView.swift in Sources */,
 				7C0695EC2BCF0234007C5535 /* ConstantsWatch.swift in Sources */,
 				73A43ED22BCDB88D00CA35E0 /* ARView.swift in Sources */,

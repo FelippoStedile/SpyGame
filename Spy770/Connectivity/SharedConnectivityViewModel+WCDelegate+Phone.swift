@@ -21,6 +21,9 @@ extension SharedConnectivityViewModel: WCSessionDelegate {
         self.onReceiveMessage(message, key: "password", ofType: [Int].self) { password in
             self.password = password
         }
+        self.onReceiveMessage(message, key: "viewName", ofType: ViewName.self) { viewName in
+            self.currentView = viewName
+        }
     }
 }
 

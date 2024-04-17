@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct Spy770_Watch_AppApp: App {
+    let vm = SharedConnectivityViewModel()
     var body: some Scene {
         WindowGroup {
-            GeniusWatchView()
+            ViewManager()
+                .environmentObject(vm)
         }
     }
 }
