@@ -22,6 +22,10 @@ enum ViewName: String, Codable {
 class SharedConnectivityViewModel: NSObject, ObservableObject {
     @Published var password: [Int] = []
     @Published var currentView: ViewName = .home
+    override init() {
+        super.init()
+        startSession()
+    }
 }
 
 

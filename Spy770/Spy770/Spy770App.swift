@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct Spy770App: App {
+    let vm = SharedConnectivityViewModel()
     var body: some Scene {
+
         WindowGroup {
-            HomeView()
+            ViewManager()
+                .environmentObject(vm)
         }
     }
 }
