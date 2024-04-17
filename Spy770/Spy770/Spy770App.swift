@@ -11,8 +11,7 @@ import SwiftUI
 struct Spy770App: App {
     var body: some Scene {
         WindowGroup {
-            //OnboardingView()
-            BombView()
+            OnboardingView()
         }
     }
 }
