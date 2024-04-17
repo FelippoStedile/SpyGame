@@ -13,6 +13,11 @@
 		007F044F2BCEEF4F006A01C5 /* 10200_Pineapple_v1-L2.mtl in Resources */ = {isa = PBXBuildFile; fileRef = 007F044C2BCEEF4E006A01C5 /* 10200_Pineapple_v1-L2.mtl */; };
 		007F04502BCEEF4F006A01C5 /* 10200_Pineapple_v1-L2.obj in Resources */ = {isa = PBXBuildFile; fileRef = 007F044D2BCEEF4E006A01C5 /* 10200_Pineapple_v1-L2.obj */; };
 		007F04512BCEEF4F006A01C5 /* 10200_Pineapple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 007F044E2BCEEF4F006A01C5 /* 10200_Pineapple.jpg */; };
+		731110EF2BCEEC3900C614B7 /* TypewriterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731110EE2BCEEC3900C614B7 /* TypewriterView.swift */; };
+		737EFC2A2BD03EDC002FB09A /* GeniusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737EFC292BD03EDC002FB09A /* GeniusView.swift */; };
+		737EFC2D2BD043FE002FB09A /* GeniusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737EFC2C2BD043FE002FB09A /* GeniusViewModel.swift */; };
+		737EFC302BD0485C002FB09A /* GeniusWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737EFC2F2BD0485C002FB09A /* GeniusWatchView.swift */; };
+		737EFC322BD04B94002FB09A /* GeniusWatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737EFC312BD04B94002FB09A /* GeniusWatchViewModel.swift */; };
 		73A43E772BCD9CEB00CA35E0 /* Spy770App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43E762BCD9CEB00CA35E0 /* Spy770App.swift */; };
 		73A43E7B2BCD9CED00CA35E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73A43E7A2BCD9CED00CA35E0 /* Assets.xcassets */; };
 		73A43E7E2BCD9CED00CA35E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73A43E7D2BCD9CED00CA35E0 /* Preview Assets.xcassets */; };
@@ -44,6 +49,11 @@
 		73A43EDB2BCDB9B700CA35E0 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43EDA2BCDB9B700CA35E0 /* SuccessView.swift */; };
 		73A43EDD2BCDB9C200CA35E0 /* FailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43EDC2BCDB9C200CA35E0 /* FailView.swift */; };
 		73A43EE12BCDBA5C00CA35E0 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A43EE02BCDBA5C00CA35E0 /* ButtonView.swift */; };
+		7C0695EC2BCF0234007C5535 /* ConstantsWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0695EB2BCF0234007C5535 /* ConstantsWatch.swift */; };
+		7C0695EE2BCF0264007C5535 /* lockerClick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7C0695ED2BCF0264007C5535 /* lockerClick.wav */; };
+		7C0695F62BD04076007C5535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0695F52BD04076007C5535 /* AppDelegate.swift */; };
+		7C0695F82BD049F7007C5535 /* BombViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0695F72BD049F7007C5535 /* BombViewModel.swift */; };
+		7C0695FA2BD04D0D007C5535 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0695F92BD04D0D007C5535 /* Constants.swift */; };
 		A7A54BE42BCEE9A4003EE1A0 /* WCProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A54BE32BCEE9A4003EE1A0 /* WCProtocol.swift */; };
 		A7A54BE52BCEE9A4003EE1A0 /* WCProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A54BE32BCEE9A4003EE1A0 /* WCProtocol.swift */; };
 		A7A54BE72BCEE9EC003EE1A0 /* SharedConnectivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A54BE62BCEE9EC003EE1A0 /* SharedConnectivityViewModel.swift */; };
@@ -87,6 +97,11 @@
 		007F044C2BCEEF4E006A01C5 /* 10200_Pineapple_v1-L2.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "10200_Pineapple_v1-L2.mtl"; sourceTree = "<group>"; };
 		007F044D2BCEEF4E006A01C5 /* 10200_Pineapple_v1-L2.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "10200_Pineapple_v1-L2.obj"; sourceTree = "<group>"; };
 		007F044E2BCEEF4F006A01C5 /* 10200_Pineapple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10200_Pineapple.jpg; sourceTree = "<group>"; };
+		731110EE2BCEEC3900C614B7 /* TypewriterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypewriterView.swift; sourceTree = "<group>"; };
+		737EFC292BD03EDC002FB09A /* GeniusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusView.swift; sourceTree = "<group>"; };
+		737EFC2C2BD043FE002FB09A /* GeniusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusViewModel.swift; sourceTree = "<group>"; };
+		737EFC2F2BD0485C002FB09A /* GeniusWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusWatchView.swift; sourceTree = "<group>"; };
+		737EFC312BD04B94002FB09A /* GeniusWatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeniusWatchViewModel.swift; sourceTree = "<group>"; };
 		73A43E732BCD9CEB00CA35E0 /* Spy770.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spy770.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73A43E762BCD9CEB00CA35E0 /* Spy770App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spy770App.swift; sourceTree = "<group>"; };
 		73A43E7A2BCD9CED00CA35E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -119,6 +134,11 @@
 		73A43EDA2BCDB9B700CA35E0 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
 		73A43EDC2BCDB9C200CA35E0 /* FailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailView.swift; sourceTree = "<group>"; };
 		73A43EE02BCDBA5C00CA35E0 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		7C0695EB2BCF0234007C5535 /* ConstantsWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsWatch.swift; sourceTree = "<group>"; };
+		7C0695ED2BCF0264007C5535 /* lockerClick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lockerClick.wav; sourceTree = "<group>"; };
+		7C0695F52BD04076007C5535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7C0695F72BD049F7007C5535 /* BombViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BombViewModel.swift; sourceTree = "<group>"; };
+		7C0695F92BD04D0D007C5535 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A7A54BE32BCEE9A4003EE1A0 /* WCProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCProtocol.swift; sourceTree = "<group>"; };
 		A7A54BE62BCEE9EC003EE1A0 /* SharedConnectivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedConnectivityViewModel.swift; sourceTree = "<group>"; };
 		A7A54BE92BCEEBA0003EE1A0 /* SharedConnectivityViewModel+WCProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharedConnectivityViewModel+WCProtocol.swift"; sourceTree = "<group>"; };
@@ -157,6 +177,22 @@
 				007F044E2BCEEF4F006A01C5 /* 10200_Pineapple.jpg */,
 			);
 			path = AR;
+			sourceTree = "<group>";
+		};
+		737EFC282BD03ECC002FB09A /* Genius */ = {
+			isa = PBXGroup;
+			children = (
+				737EFC292BD03EDC002FB09A /* GeniusView.swift */,
+			);
+			path = Genius;
+			sourceTree = "<group>";
+		};
+		737EFC2E2BD04850002FB09A /* Genius */ = {
+			isa = PBXGroup;
+			children = (
+				737EFC2F2BD0485C002FB09A /* GeniusWatchView.swift */,
+			);
+			path = Genius;
 			sourceTree = "<group>";
 		};
 		73A43E6A2BCD9CEB00CA35E0 = {
@@ -223,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				73A43E9E2BCDB1E200CA35E0 /* ConnectivityModel.swift */,
+				7C0695F52BD04076007C5535 /* AppDelegate.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -231,6 +268,7 @@
 			isa = PBXGroup;
 			children = (
 				A7B4DFE52BD0602A003B9B39 /* ViewManager.swift */,
+				737EFC282BD03ECC002FB09A /* Genius */,
 				007F04452BCEE9EE006A01C5 /* AR */,
 				73A43EAD2BCDB41500CA35E0 /* Onboarding */,
 				73A43EAE2BCDB41D00CA35E0 /* Introduction */,
@@ -246,6 +284,8 @@
 			isa = PBXGroup;
 			children = (
 				73A43EA02BCDB20900CA35E0 /* ConnectivityViewModel.swift */,
+				7C0695F72BD049F7007C5535 /* BombViewModel.swift */,
+				737EFC2C2BD043FE002FB09A /* GeniusViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -254,6 +294,7 @@
 			isa = PBXGroup;
 			children = (
 				A7B4DFE32BD05145003B9B39 /* ViewManager.swift */,
+				737EFC2E2BD04850002FB09A /* Genius */,
 				73A43EC72BCDB70C00CA35E0 /* Onboarding */,
 				73A43ECC2BCDB7F700CA35E0 /* Introduction */,
 				73A43ED02BCDB84E00CA35E0 /* AugmentedReality */,
@@ -268,6 +309,7 @@
 			isa = PBXGroup;
 			children = (
 				73A43EA42BCDB26F00CA35E0 /* WatchConnectivityViewModel.swift */,
+				737EFC312BD04B94002FB09A /* GeniusWatchViewModel.swift */,
 			);
 			path = WatchViewModel;
 			sourceTree = "<group>";
@@ -278,6 +320,7 @@
 				73A43EA82BCDB2CE00CA35E0 /* Components */,
 				73A43EA72BCDB2C400CA35E0 /* DesignSystem */,
 				73A43E7A2BCD9CED00CA35E0 /* Assets.xcassets */,
+				7C0695F92BD04D0D007C5535 /* Constants.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -294,6 +337,7 @@
 			isa = PBXGroup;
 			children = (
 				73A43EAB2BCDB33100CA35E0 /* ButtonView.swift */,
+				731110EE2BCEEC3900C614B7 /* TypewriterView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -405,6 +449,8 @@
 			children = (
 				73A43EDF2BCDBA4A00CA35E0 /* Components */,
 				73A43E8C2BCD9CEE00CA35E0 /* Assets.xcassets */,
+				7C0695ED2BCF0264007C5535 /* lockerClick.wav */,
+				7C0695EB2BCF0234007C5535 /* ConstantsWatch.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -523,6 +569,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C0695EE2BCF0264007C5535 /* lockerClick.wav in Resources */,
 				73A43E902BCD9CEE00CA35E0 /* Preview Assets.xcassets in Resources */,
 				73A43E8D2BCD9CEE00CA35E0 /* Assets.xcassets in Resources */,
 			);
@@ -535,17 +582,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C0695FA2BD04D0D007C5535 /* Constants.swift in Sources */,
 				73A43EAC2BCDB33100CA35E0 /* ButtonView.swift in Sources */,
 				73A43EB12BCDB47400CA35E0 /* AugmentedRealityView.swift in Sources */,
+				7C0695F82BD049F7007C5535 /* BombViewModel.swift in Sources */,
 				73A43EB52BCDB4D500CA35E0 /* OnboardingView.swift in Sources */,
 				73A43EC62BCDB69200CA35E0 /* HomeView.swift in Sources */,
 				73A43EAA2BCDB30200CA35E0 /* Colors.swift in Sources */,
 				007F04472BCEEA12006A01C5 /* ARView.swift in Sources */,
 				73A43EC02BCDB66100CA35E0 /* FailView.swift in Sources */,
+				737EFC2A2BD03EDC002FB09A /* GeniusView.swift in Sources */,
 				73A43EA12BCDB20900CA35E0 /* ConnectivityViewModel.swift in Sources */,
 				A7A54BE42BCEE9A4003EE1A0 /* WCProtocol.swift in Sources */,
 				73A43EB32BCDB4BA00CA35E0 /* IntroVideoView.swift in Sources */,
 				73A43EC42BCDB68700CA35E0 /* SettingsView.swift in Sources */,
+				731110EF2BCEEC3900C614B7 /* TypewriterView.swift in Sources */,
 				A7A54BE72BCEE9EC003EE1A0 /* SharedConnectivityViewModel.swift in Sources */,
 				73A43EBC2BCDB64C00CA35E0 /* BombView.swift in Sources */,
 				A7A54BEA2BCEEBA0003EE1A0 /* SharedConnectivityViewModel+WCProtocol.swift in Sources */,
@@ -557,6 +608,8 @@
 				73A43E9F2BCDB1E200CA35E0 /* ConnectivityModel.swift in Sources */,
 				73A43EBA2BCDB63A00CA35E0 /* HackView.swift in Sources */,
 				73A43E772BCD9CEB00CA35E0 /* Spy770App.swift in Sources */,
+				7C0695F62BD04076007C5535 /* AppDelegate.swift in Sources */,
+				737EFC2D2BD043FE002FB09A /* GeniusViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,10 +621,13 @@
 				73A43ECE2BCDB83C00CA35E0 /* IntroVideoView.swift in Sources */,
 				A7B4DFE42BD05145003B9B39 /* ViewManager.swift in Sources */,
 				73A43EDB2BCDB9B700CA35E0 /* SuccessView.swift in Sources */,
+				7C0695EC2BCF0234007C5535 /* ConstantsWatch.swift in Sources */,
 				73A43ED22BCDB88D00CA35E0 /* ARView.swift in Sources */,
+				737EFC322BD04B94002FB09A /* GeniusWatchViewModel.swift in Sources */,
 				73A43ED52BCDB93000CA35E0 /* HackView.swift in Sources */,
 				A7A54BEB2BCEEBA0003EE1A0 /* SharedConnectivityViewModel+WCProtocol.swift in Sources */,
 				73A43EC92BCDB78700CA35E0 /* CreditsView.swift in Sources */,
+				737EFC302BD0485C002FB09A /* GeniusWatchView.swift in Sources */,
 				73A43ED82BCDB99F00CA35E0 /* LockView.swift in Sources */,
 				73A43E892BCD9CED00CA35E0 /* Spy770App.swift in Sources */,
 				73A43ECB2BCDB79000CA35E0 /* HomeView.swift in Sources */,
@@ -716,7 +772,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Spy770 Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = DFJUFQ6A3N;
+				DEVELOPMENT_TEAM = 856F4M2786;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Spy770;
@@ -746,7 +802,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Spy770 Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = DFJUFQ6A3N;
+				DEVELOPMENT_TEAM = 856F4M2786;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Spy770;
@@ -778,7 +834,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Spy770/Preview Content\"";
-				DEVELOPMENT_TEAM = DFJUFQ6A3N;
+				DEVELOPMENT_TEAM = 856F4M2786;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Spy770;
@@ -812,7 +868,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Spy770/Preview Content\"";
-				DEVELOPMENT_TEAM = DFJUFQ6A3N;
+				DEVELOPMENT_TEAM = 856F4M2786;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Spy770;
